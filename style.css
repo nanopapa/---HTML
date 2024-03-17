@@ -1,0 +1,32 @@
+#about-me {
+    width: 800px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+
+
+#about-me h1{
+    text-align: center;
+    color:red;
+}
+
+#about-me h1{
+    font-size: 36px;
+    color:#000;
+}
+
+#about-me li{
+    margin: 10px 0;
+    list-style-position: inside;
+}
+
+#about-me a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    width: 300px;
+    background-color: pink;
+    padding: 15px;
+}
