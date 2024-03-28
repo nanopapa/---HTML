@@ -6,21 +6,19 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>説明用HTML</title>
 </head>
 <body>
 
-<!-- 
-    divisionの略。ブロック要素。
-    複数のタグを1つにまとめてグループ化できる
-    そのグループの文字だけを20pxにしたい。中央寄せにしたいなど複数の要素をCSSでスタイルしたいときに便利 -->
 <div id="about-me">
     <h1>高橋です</h1>
+
     <ul>
         <li>男です</li>
         <li>36歳です</li>
         <li>趣味は旅行です</li>
     </ul>
+
 
     <ol>
         <li>安くて</li>
@@ -29,14 +27,66 @@
         <li>牛丼！</li>
     </ol>
 
-    <!-- aタグについて
-    Anchorの略。インライン要素。
-    ハイパーリンクの出発点と到達点を指定する（現在のサイトから他のサイトに移動する）などの役割を持つ -->
     <a href="https://nanopapaweb.com/" target="blank">私のポートフォリオです</a>
+
+    <table>
+        <tr>
+            <th>名前</th>
+            <th>値段</th>
+        </tr>
+        <tr>
+            <td>牛丼</td>
+            <td>450円</td>
+        </tr>
+        <tr>
+            <td>うどん</td>
+            <td>400円</td>
+        </tr>
+        <tr>
+            <td>海鮮丼</td>
+            <td>700円</td>
+        </tr>
+</table>
+
+
+    <dl>
+        <dt>Q,東京タワーの高さは?</dt>
+        <dd>A,333m</dd>
+        <dt>Q,スカイツリーは？</dt>
+        <dd>A,634m</dd>
+    </dl>
+
+    <p>吾輩は猫である。名前はまだ無い。</p>
+    <p>どこで生れたかとんと見当けんとうがつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。</p>
+    <p>吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは<br>書生という人間中で一番<span>獰悪な種族</span>であったそうだ。</p>
 </div>
 
+<section id ="detail">
+    <h2>高橋の詳細</h2>
 
- 
+    <ul>
+        <li>栃木出身です</li>
+        <li>東京にも住みました</li>
+        <li>福島にも住みました</li>
+    </ul>
+
+    <h3>質問があればこちらまで</h3>
+    <form method="POST" action="URL">
+            <p class="form__name">お名前：<input type="text" name="NAME"></p>
+            <p>メールアドレス：<input type="text" name="email"></p>
+            <p><input type="submit" value="送信する"></p>
+            <p><input type="reset" value="取消する"></p>
+        </form>
+</section>
+
+    
+
+<footer>
+    <small>written by Takahashi</small>
+</footer>
+
+
+
 
 </body>
 </html>
